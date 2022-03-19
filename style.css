@@ -1,3 +1,67 @@
 body {
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+#container{
+    border: 1px solid red; 
+    background-color: white;
+    overflow: hidden;
+    width: 50vh;
+    height: 76vh;
     
+    
+}
+
+#top {
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+
+}
+
+#mid {
+    border: 1px solid red;
+    height: 50%;
+    margin-top: ;
+}
+
+#bottom {
+    border: 1px solid red;
+    height: 100%;
+    background-color: white;
+}
+
+#t1{
+    flex-grow:1;
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+
+}
+
+#t2{
+    flex-grow: 1;
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+
+}
+
+#t3{
+    flex-grow:500;
+    border: 1px solid red;
+    height: 50px;
+    width:  50px;
+}
+
+#t4{
+    flex-grow:50;
+    border: 1px solid red;
+    height: 50px;
+    width:  50px;
+
 }
